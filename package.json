@@ -1,0 +1,22 @@
+{
+  "name": "el-upload-queue",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "elupload 多文件上传并发控制",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.50.0",
+    "tsdown": "^0.22.0",
+    "typescript": "^6.0.3"
+  },
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  }
+}
