@@ -1,11 +1,12 @@
 {
-  "name": "el-upload-queue",
+  "name": "@transo/el-upload-queue",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "elupload 多文件上传并发控制",
   "files": [
     "dist"
   ],
+  "homepage": "https://github.com/Tranyan/el-upload-queue",
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch"
