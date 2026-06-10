@@ -13,7 +13,7 @@ const { httpRequest } = useHttpRequest({ concurrency: 3 });
 ```
 
 ```html
-<ElUpload :http-request="httpRequest" />
+<ElUpload :httpRequest />
 
 ```
 
